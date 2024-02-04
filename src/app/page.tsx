@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-ce'>
+      <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <div className="
           mx-auto 
           mb-4 
@@ -29,7 +29,13 @@ export default function Home() {
             chat.pdf is now live!
           </p>
         </div>
+        <h1 className='max-w-4xl text-4xl font-bold md:text-6xl lg:text-7xl'>
+          Chat with your <span className='text-blue-600'>Documents</span> in seconds.
+        </h1>
 
+        <p className='mt-5 max-w-prose'>
+
+        </p>
       </MaxWidthWrapper>
   )
 }
